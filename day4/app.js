@@ -54,7 +54,7 @@ var authors=[
 ]
 
 setInterval(getQuotes , 30000)
-var tweets=document.querySelector('.tweet')
+var tweets=document.querySelector('.tweet1')
 var author1=document.getElementById('author')
 var quote1=document.getElementById('word');
 function getQuotes(){
