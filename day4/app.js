@@ -64,7 +64,8 @@ function getQuotes(){
     var author=authors[i];
     quote1.innerHTML=` "${quote}"`;
     author1.innerHTML=`---${author}` ;
-    tweets.setAttribute('href','https://twitter.com/home/?status='+quote+ "" + author );
+      var link='http://twitter.com/home/?status='+ quote + " " + author;
+    tweets.setAttribute('href',link );
 
 }
 
