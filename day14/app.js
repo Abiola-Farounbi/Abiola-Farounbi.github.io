@@ -1,18 +1,17 @@
 
 //varibles to display the output
-var word=document.querySelector('.word');
-var one=document.querySelector('.one');
-var two=document.querySelector('.two');
-var partsOfSpeech=document.querySelector('.parts-of-speech');
-var syns=document.querySelector('.synonyms');
-
 // the value of the input
-const value=document.querySelector('.search').value 
+
 
 
 // creating a function to search for word
 function searchWord(){
-  
+const value=document.querySelector('.search').value 
+var word=document.querySelector('.word');
+var one=document.querySelector('.one');
+var two=document.querySelector('.two');
+var partsOfSpeech=document.querySelector('.parts-of-speech');
+var syns=document.querySelector('.synonyms');  
 // using xhr object to  fetch data from api
 const xhr = new XMLHttpRequest();
 
